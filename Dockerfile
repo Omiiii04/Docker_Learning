@@ -10,4 +10,4 @@ COPY . .
 
 ENV FLASK_APP=app.py
 
-CMD ["python", "run"]
+CMD ["python", "app.py"]
