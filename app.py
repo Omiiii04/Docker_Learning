@@ -26,4 +26,4 @@ def api_status():
 if __name__ == "__main__":
     # Run the built-in development server
     # debug=True automatically reloads the server when code changes
-    app.run(debug=True, port=5000)
+    app.run(host="0.0.0.0", port = 5000, debug = True)
